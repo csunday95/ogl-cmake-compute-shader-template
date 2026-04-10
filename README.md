@@ -11,6 +11,26 @@ A minimal OpenGL 4.5 starter kit with compute shader support for GPU-driven part
 - **Catch2 Testing**: Shader compilation tests
 - **CMake Build**: FetchContent dependencies (GLFW, GLM, ImGui, Catch2)
 
+## Using This Template
+
+To start a new project from this template:
+
+```bash
+# Clone the template
+git clone https://github.com/csunday95/opengl-template.git my-project
+cd my-project
+
+# Disconnect from this template repo
+git remote remove origin
+git remote add origin <your-new-repo-url>
+
+# Push to your new repo
+git branch -M main
+git push -u origin main
+```
+
+This gives you a clean, independent project. If you want to track template improvements later, you can add `git remote add upstream https://github.com/csunday95/opengl-template.git` and merge updates as needed.
+
 ## Building
 
 ```bash
